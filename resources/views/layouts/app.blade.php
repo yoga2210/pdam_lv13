@@ -17,7 +17,7 @@
         if (str_contains($mapsRaw, '<iframe')) {
             $mapsEmbedValue = $mapsRaw;
         } else {
-            $mapsEmbedValue = '<iframe src="' . trim($mapsRaw) . '" width="100%" height="220" style="border:0;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+            $mapsEmbedValue = '<iframe src="' . trim($mapsRaw) . '" width="100%" height="220" style="border:0;display:block;border-radius:8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
         }
     }
 @endphp
