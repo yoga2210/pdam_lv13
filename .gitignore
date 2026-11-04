@@ -25,3 +25,13 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+AGENTS.md
+CLAUDE.md
+.env
+.env.*
+/vendor
+/node_modules
+/storage
+/public/build
+
