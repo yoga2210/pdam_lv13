@@ -1,0 +1,406 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+body {
+    background: #f5f7fb;
+    color: #1f2937;
+}
+
+#content {
+    background: #f5f7fb;
+}
+
+.page-shell {
+    padding: 56px 0 72px;
+    background:
+        linear-gradient(180deg, rgba(12, 66, 118, 0.04), rgba(12, 66, 118, 0.01)),
+        #f5f7fb;
+}
+
+.page-header-box {
+    background: #ffffff;
+    border: 1px solid rgba(15, 23, 42, 0.06);
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.05);
+    padding: 28px 30px;
+    margin-bottom: 28px;
+}
+
+.eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 12px;
+    border-radius: 999px;
+    background: rgba(17, 94, 180, 0.08);
+    color: #0f5bb5;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.page-header-box h1,
+.section-title {
+    margin: 0;
+    font-size: clamp(2rem, 3vw, 2.7rem);
+    line-height: 1.2;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.page-header-box p {
+    margin: 12px 0 0;
+    color: #475569;
+    line-height: 1.7;
+}
+
+.news-card,
+.gallery-card,
+.contact-card,
+.info-card {
+    background: #fff;
+    border: 1px solid rgba(15, 23, 42, 0.06);
+    border-radius: 18px;
+    box-shadow: 0 12px 24px rgba(15, 23, 42, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.news-card:hover,
+.gallery-card:hover,
+.contact-card:hover,
+.info-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 28px rgba(15, 23, 42, 0.08);
+}
+
+.news-card .card-img-top {
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.news-card .card-body {
+    padding: 20px 20px 24px;
+}
+
+.news-card .card-title {
+    margin-bottom: 10px;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.news-card .card-title a {
+    color: #0f172a;
+    text-decoration: none;
+}
+
+.news-card .card-title a:hover {
+    color: #0f5bb5;
+}
+
+.news-meta,
+.item-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #64748b;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.news-card .card-text,
+.announcement-item p,
+.agenda-item p,
+.article-content,
+.contact-card p,
+.contact-list,
+.gallery-card p {
+    color: #475569;
+    line-height: 1.7;
+}
+
+.news-card .card-text {
+    margin-bottom: 0;
+}
+
+.badge-soft {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: rgba(15, 91, 181, 0.08);
+    color: #0f5bb5;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.announcement-list,
+.agenda-list {
+    display: grid;
+    gap: 18px;
+}
+
+.announcement-item,
+.agenda-item {
+    background: #ffffff;
+    border: 1px solid rgba(15, 23, 42, 0.06);
+    border-radius: 18px;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
+    padding: 22px 24px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.announcement-item:hover,
+.agenda-item:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 16px 30px rgba(15, 23, 42, 0.08);
+}
+
+.announcement-item a,
+.agenda-item a {
+    text-decoration: none;
+}
+
+.announcement-item h3,
+.agenda-item h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.agenda-item .date-pill {
+    display: inline-flex;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background: rgba(34, 197, 94, 0.08);
+    color: #15803d;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-bottom: 12px;
+}
+
+.gallery-card {
+    overflow: hidden;
+}
+
+.gallery-card .card-img-top {
+    height: 245px;
+    object-fit: cover;
+}
+
+.gallery-card .card-body {
+    padding: 18px 18px 20px;
+}
+
+.gallery-card .card-title {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.gallery-card .card-title a {
+    color: #0f172a;
+    text-decoration: none;
+}
+
+.gallery-card .card-title a:hover {
+    color: #0f5bb5;
+}
+
+.video-thumb {
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.video-thumb img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.video-thumb .play-badge {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(15, 23, 42, 0.18);
+}
+
+.video-thumb .play-badge::before {
+    content: "▶";
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.92);
+    color: #0f5bb5;
+    font-size: 1.4rem;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.2);
+}
+
+.article-shell {
+    background: #fff;
+    border: 1px solid rgba(15, 23, 42, 0.06);
+    border-radius: 20px;
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.04);
+    padding: 28px 24px 20px;
+}
+
+.article-shell h1 {
+    margin: 0 0 8px;
+    color: #0f172a;
+    font-size: clamp(2rem, 3vw, 2.6rem);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.article-thumb {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin: 20px 0;
+    display: block;
+}
+
+.article-content {
+    font-size: 1rem;
+    line-height: 1.9;
+}
+
+.article-content img,
+.article-content iframe {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 16px 0;
+}
+
+.article-content h2,
+.article-content h3,
+.article-content h4 {
+    color: #0f172a;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+}
+
+.article-content p,
+.article-content ul,
+.article-content ol {
+    margin-bottom: 1rem;
+}
+
+.contact-stack {
+    display: grid;
+    gap: 22px;
+}
+
+.contact-card {
+    padding: 24px;
+}
+
+.contact-card h3 {
+    margin: 0 0 14px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 12px;
+}
+
+.contact-list li {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.contact-list li i {
+    margin-top: 4px;
+    color: #0f5bb5;
+    font-size: 1rem;
+}
+
+.map-frame {
+    border: 0;
+    width: 100%;
+    min-height: 320px;
+    border-radius: 18px;
+    box-shadow: 0 12px 26px rgba(15, 23, 42, 0.08);
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 28px;
+}
+
+.page-link,
+.page-item.active .page-link {
+    border-radius: 10px;
+    border: 1px solid rgba(15, 23, 42, 0.08);
+    color: #0f172a;
+    margin: 0 4px;
+    min-width: 42px;
+    height: 42px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-item.active .page-link {
+    background: #0f5bb5;
+    border-color: #0f5bb5;
+    color: #fff;
+}
+
+.btn-primary {
+    background: #0f5bb5;
+    border-color: #0f5bb5;
+}
+
+.btn-primary:hover {
+    background: #0c4d96;
+    border-color: #0c4d96;
+}
+
+@media (max-width: 767.98px) {
+    .page-shell {
+        padding: 36px 0 56px;
+    }
+
+    .page-header-box {
+        padding: 22px 18px;
+    }
+
+    .article-shell {
+        padding: 22px 16px 18px;
+    }
+
+    .announcement-item,
+    .agenda-item,
+    .contact-card {
+        padding: 18px 16px;
+    }
+}
+
+
