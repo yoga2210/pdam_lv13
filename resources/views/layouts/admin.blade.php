@@ -90,7 +90,7 @@
         <footer class="footer">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-6">&copy; {{ date('Y') }} PDAM.</div>
+                    <div class="col-sm-6">&copy; {{ date('Y') }} DISKOMINFO KOTA MOJOKERTO.</div>
                 </div>
             </div>
         </footer>

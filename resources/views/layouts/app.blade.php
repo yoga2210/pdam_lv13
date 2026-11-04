@@ -124,7 +124,7 @@
                                 <div class="widget widget_links clearfix">
                                     <h4>Lokasi</h4>
                                     @if(!empty($mapsEmbedValue))
-                                        <div class="mt-2">
+                                        <div class="mt-2" style="max-height: 220px; overflow: hidden; border-radius: 8px;">
                                             {!! $mapsEmbedValue !!}
                                         </div>
                                     @else
@@ -158,7 +158,7 @@
         </div>
         <div id="copyrights">
             <div class="container clearfix">
-                <div class="center">&copy; {{ date('Y') }} {{ $settings['site_name'] ?? 'PDAM' }}. All Rights Reserved.</div>
+                <div class="center">&copy; {{ date('Y') }} By DISKOMINFO KOTA MOJOKERTO.</div>
             </div>
         </div>
     </footer>
